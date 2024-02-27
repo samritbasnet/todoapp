@@ -1,5 +1,6 @@
 
-import './todo.css'
+import "../src/todo.css";
+import "../src/index.css";
 function App() {
 
   return (
@@ -9,7 +10,7 @@ function App() {
         <label className='label'>Items to Add</label>
         <input className='input'  type='text' name="item" placeholder='Add new task'/> 
       <button className='addbtn'>Add an item</button>
-    Todo List
+    
       <p className='todo'>Todo List</p>
       </div>
   )
